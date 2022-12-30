@@ -7,7 +7,7 @@ const isProduction = process.env.NODE_ENV == "production";
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const CopyPlugin = require("copy-webpack-plugin");
 
-const stylesHandler = "styles-loader";
+const stylesHandler = "style-loader";
 
 const config = {
   entry: "./src/index.js",
