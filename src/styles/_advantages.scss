@@ -1,0 +1,27 @@
+.section__advantages {
+  background-color: #2ab3b1;
+  color: #ffffff;
+  opacity: 0.75;
+  padding-top: 23px;
+
+  @include breakpoint(desktop) {
+    padding-top: 40px;
+    padding-bottom: 38px;
+  }
+}
+
+.section__advantages-heading {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: -0.225px;
+  margin-bottom: 18px;
+}
+
+.section__advantages-list {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.175px;
+  color: #ffffff;
+}

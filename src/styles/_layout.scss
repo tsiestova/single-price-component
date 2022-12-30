@@ -1,0 +1,17 @@
+body {
+  font-family: "Karla", sans-serif;
+  background: #e6eff5;
+}
+
+.layout {
+  padding: 72px 32px 62px 32px;
+
+  @include breakpoint(desktop) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
+    padding-top: 218px;
+    padding-le: 29px;
+    max-width: 699px;
+  }
+}

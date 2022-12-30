@@ -1,0 +1,53 @@
+.section__details {
+  background: #ffffff;
+
+  @include breakpoint(desktop) {
+    grid-column: span 2;
+  }
+}
+
+.section__details-heading {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: -0.25px;
+  color: #2ab3b1;
+  margin-bottom: 25px;
+
+  @include breakpoint(desktop) {
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.3px;
+    margin-bottom: 22px;
+  }
+}
+
+.section__details-subheading {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: -0.1875px;
+  color: #c0df33;
+  margin-bottom: 17px;
+
+  @include breakpoint(desktop) {
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.225px;
+  }
+}
+
+.section__details-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: -0.175px;
+  color: #9aa7be;
+  margin-bottom: 4px;
+
+  @include breakpoint(desktop) {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.2px;
+  }
+}
